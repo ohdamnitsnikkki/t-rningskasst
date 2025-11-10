@@ -10,4 +10,13 @@ def summa_av_kast():
     tarning1 = kasta_tarning
     tarning2 = kasta_tarning
     total = tarning1 + tarning2
+
+    print(f"Första talet blev: {tarning1}")
+    print(f"Andra talet blev: {tarning2}")
     return total
+
+print("Välkommen till tärninsspelet")
+
+# Kasta tärningarna och skriv ut resultatet
+resultat = summa_av_kast()
+print("Ditt resultat blev: {resultat}")
