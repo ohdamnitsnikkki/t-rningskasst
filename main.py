@@ -7,8 +7,8 @@ def kasta_tarning():
 
 # Funktonen som åberopar kasta_tarning två gånger samt summerar talen 
 def summa_av_kast():
-    tarning1 = kasta_tarning
-    tarning2 = kasta_tarning
+    tarning1 = kasta_tarning()
+    tarning2 = kasta_tarning()
     total = tarning1 + tarning2
 
     print(f"Första talet blev: {tarning1}")
@@ -19,4 +19,4 @@ print("Välkommen till tärninsspelet")
 
 # Kasta tärningarna och skriv ut resultatet
 resultat = summa_av_kast()
-print("Ditt resultat blev: {resultat}")
+print(f"Ditt resultat blev: {resultat}")
